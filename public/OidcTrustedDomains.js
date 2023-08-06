@@ -5,11 +5,11 @@
 // Domains used by OIDC server must be also declared here
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const trustedDomains = {
-    default: ['http://localhost:5000', 'https://localhost:5001', 'https://id.homnics.com', 'https://api.homnics.com', 'http://localhost:31545'],
-    config_classic: ['https://localhost:5001'],
-    config_without_silent_login: ['https://localhost:5001'],
-    config_without_refresh_token: ['https://localhost:5001'],
-    config_without_refresh_token_silent_login: ['https://localhost:5001'],
+    default: ['http://localhost:5000', 'https://localhost:5001', 'https://id.homnics.com', 'https://api.homnics.com', 'https://localhost:44313'],
+    config_classic: ['https://localhost:44313'],
+    config_without_silent_login: ['https://localhost:44313'],
+    config_without_refresh_token: ['https://localhost:44313'],
+    config_without_refresh_token_silent_login: ['https://localhost:44313'],
     config_google: ['https://oauth2.googleapis.com', 'https://openidconnect.googleapis.com'],
-    config_with_hash: ['https://localhost:5001'],
+    config_with_hash: ['https://localhost:44313'],
 };

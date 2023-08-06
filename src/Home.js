@@ -12,9 +12,9 @@ const Home = () => {
           <h5 className="card-title">Welcome!</h5>
           <p className="card-text">React Demo Application protected by OpenID Connect</p>
           {!isAuthenticated && 
-            <button type="button" className="btn btn-primary" onClick={() => login('/profile')}>Login</button>}
+            <button type="button" className="btn btn-primary" onClick={() => login('/admin')}>Login</button>}
           {isAuthenticated && 
-            <button type="button" className="btn btn-primary" onClick={() => logout()}>logout</button>}
+            <button type="button" className="btn btn-primary" onClick={() => logout('/')}>logout</button>}
         </div>
       </div>
     </div>
